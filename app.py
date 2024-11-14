@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # Configure the API key securely
-genai_api_key = os.getenv("GENAI_API_KEY")
+genai_api_key = os.getenv("118744425805-j122pbkkr6khd09lk2hkqi2tedk8u74t.apps.googleusercontent.com")
 if not genai_api_key:
     st.error("API key for Generative AI is not set.")
     st.stop()
